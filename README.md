@@ -3,19 +3,22 @@
 ## Games
 - Snake Water Gun
 - Rock Paper Scissors
+- The Perfect Guess
 
 ## Features
+
 - Randomized computer choices
 - User input handling
 - Win/Lose/Draw logic
 
 ## Technologies
 - Python 3
-- random module
+- Random module
 
 ## What I Learned
-- if-else
-- loops
-- dictionaries
-- functions
-- user input
+- Conditinal statements ->if-else
+- Loops
+- Dictionaries
+- Functions
+- User input
+- Variables
