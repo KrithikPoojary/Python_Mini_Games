@@ -6,10 +6,26 @@
 - Rock Paper Scissors
 - The Perfect Guess
 - Coin Toss Game
+- Quiz Game (v1.0 Extended)
+
+## Quiz Game Highlights
+
+- 13 Quiz Modes
+- 150 Questions
+- Random 10 Questions Every Game
+- Question Shuffle
+- Live Score Tracking
+- Percentage Calculation
+- Performance Feedback
+- Replay Option
+- Input Validation
+- Subject-wise Question Database
 
 ## Features
 
 - Randomized computer choices
+- Random question selection
+- Question shuffling
 - Interactive command-line gameplay
 - Single-player and two-player games
 - User input handling
@@ -30,10 +46,15 @@
 - Conditional Statements (`if-else`)
 - Loops (`while`, `for`)
 - Functions
-- Dictionaries
+- Python Modules (`import`)
 - Lists
+- Dictionaries
+- List of Dictionaries
 - String Manipulation
 - Random Module
 - Time Module (`time.sleep()`)
-- Basic Game Logic
 - Input Validation
+- Score Calculation
+- Percentage Calculation
+- Code Organization
+- Multi-file Project Structure
