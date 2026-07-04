@@ -832,7 +832,7 @@ while True:
         print("Please Choose between 1-13 only")
     while True:
         print("")
-        print("Hope You Enjoyed and Learnt something at the same this.")
+        print("Hope You Enjoyed and Learnt something at the same time.")
         print("")
         a = input("Do you want to play again?[y/n]").strip().lower()
         if a == "y":
