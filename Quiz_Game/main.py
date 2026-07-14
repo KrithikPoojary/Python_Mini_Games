@@ -840,6 +840,7 @@ while True:
         if a == "y":
             break
         elif a == "n":
+            print("Thank you , visit again!")
             exit()
         else:
             print("Please choose between {y/n} only")
