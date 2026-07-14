@@ -9,7 +9,7 @@ print("Welcome to Quiz_game!!")
 print("**********************************************")
 print("Here we have Following types of quiz:\n1-Maths Quiz\n2-Physics Quiz\n3-Chemistry quiz\n4-Biology quiz\n5-Physics + Chemistry Quiz\n6-Physics + Maths Quiz\n7-Physics + Biology Quiz\n8-Chemistry + Biology Quiz\n9-Chemistry + Maths Quiz\n10-Maths + Biology Quiz\n11-PCM Quiz\n12-PCB Quiz\n13-PCMB Quiz")
 print("------------------------------------------------------------------")
-
+#all the functions wrt Topics
 def math_quiz():
     selected_question = random.sample(maths_questions, 10)
     score = 0
@@ -786,6 +786,8 @@ def pcmb_quiz():
             print("Perfect Score! Genius!")
         break
 
+
+#Main logic starts from here.
 while True:
     user = int(input("Select the respective number among subjects to play Quiz Game: "))
     print("------------------------------------------------------------------")
@@ -843,3 +845,4 @@ while True:
             print("Please choose between {y/n} only")
         
 
+#further improvement i will make this code short and classed.
