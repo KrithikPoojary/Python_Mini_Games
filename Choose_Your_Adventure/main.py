@@ -1,3 +1,4 @@
+import time
 print("**********************************************")
 print("Welcome to Your_Adventure Game")
 print("**********************************************")
@@ -20,18 +21,33 @@ Escape with the legendary treasure.
 
 -Be careful!
 Every choice you make matters.
-One wrong decision can end your One Life instantly.
+One wrong decision can end your journey instantly.
 
-There are Only 3 Lives chances...
-Go Have fun ...
+There are no second chances...
+Think before you choose.
 
 Good luck, Adventurer.
 Your fate begins now...
 
+
 ==========================================================
-            Press Q to start your adventure...
+            Press Any key to start your adventure...
 ==========================================================
 ''')
 user = input("").upper()
-if user == 'Q':
-    print("[You wake up at the entrance of the Lost Temple.]")
+
+print("[You wake up at the entrance of the Lost Temple.\nLets Start...]")
+time.sleep(1)
+print("")
+print("Which path do you take?\n1 - Left Forest\n2 - Right Swamp\n3 - Climb Mountain")
+a = int(input("Choose your option: "))
+if a == 1:
+    print("")
+    print('You find a river.\n1 - Build a Raft\n2 - Swim\n3 - Go Back')
+    b = print('You ')
+elif a == 2:
+    print("There is Poisonous snakes...\nGAME OVER)")
+    exit
+elif a == 3:
+    print("Ohh You Fall from cliff...\nGAME OVER")
+

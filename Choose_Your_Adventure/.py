@@ -14,8 +14,7 @@
 # ➡️ Survive every challenge.
 # ➡️ Escape with the legendary treasure.
 
-# ⚠️ Be careful!
-# Every choice you make matters.
+# ⚠️ Be careful!# Every choice you make matters.
 # One wrong decision can end your journey instantly.
 
 # There are no second chances...
@@ -23,6 +22,7 @@
 
 # Good luck, Adventurer.
 # Your fate begins now...
+
 
 # ==========================================================
 #              Press ENTER to start your adventure...
