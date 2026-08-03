@@ -44,10 +44,24 @@ a = int(input("Choose your option: "))
 if a == 1:
     print("")
     print('You find a river.\n1 - Build a Raft\n2 - Swim\n3 - Go Back')
-    b = print('You ')
+    b = int(input("Choose your option: "))
+    if b ==1 :
+        print("")
+        print("You reach a cave.\n")
+        c = int(input("Choose your option: "))
+    elif b ==2 :
+        print("There is Crocodiles..\nGAME OVER")
+        exit
+    elif b == 3:
+        print('Bandits attack..\nGAME OVER')
+        exit
+    else:
+        print('Something went wrong!')
 elif a == 2:
     print("There is Poisonous snakes...\nGAME OVER)")
     exit
 elif a == 3:
     print("Ohh You Fall from cliff...\nGAME OVER")
-
+    exit
+else:
+    print('Something went wrong!')
