@@ -57,7 +57,7 @@ if a == 1:
             if d == 2:
                 pass
             if d == 3:
-                print("There is Giant spider!!!\n GAME ")
+                print("There is Giant spider!!!\n GAME OVER")
         if c ==2 :
             print('Quicksand!!!\nGAME OVER')
             exit
