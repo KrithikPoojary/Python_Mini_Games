@@ -47,8 +47,15 @@ if a == 1:
     b = int(input("Choose your option: "))
     if b ==1 :
         print("")
-        print("You reach a cave.\n")
+        print("You reach a cave.\n1 - Enter Cave\n2 - Walk Around\n3 - Return")
         c = int(input("Choose your option: "))
+        if c == 1:
+            print("You Entered Cave\n1 - ")
+        if c ==2 :
+            print('Quicksand!!!\nGAME OVER')
+            exit
+        if c == 3:
+            print("GAME OVER")
     elif b ==2 :
         print("There is Crocodiles..\nGAME OVER")
         exit
