@@ -50,7 +50,14 @@ if a == 1:
         print("You reach a cave.\n1 - Enter Cave\n2 - Walk Around\n3 - Return")
         c = int(input("Choose your option: "))
         if c == 1:
-            print("You Entered Cave\n1 - ")
+            print("You Entered Cave\n1 - Left Tunnel\n2 - Middle Tunnel\n3 - Right Tunnel")
+            d = int(input("Choose your option: "))
+            if d == 1:
+                print("There is Spike trap!!!\nGAME OVER")
+            if d == 2:
+                pass
+            if d == 3:
+                print("There is Giant spider!!!")
         if c ==2 :
             print('Quicksand!!!\nGAME OVER')
             exit
