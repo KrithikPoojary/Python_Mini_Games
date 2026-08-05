@@ -53,7 +53,7 @@ if a == 1:
             print("You Entered Cave\n1 - Left Tunnel\n2 - Middle Tunnel\n3 - Right Tunnel")
             d = int(input("Choose your option: "))
             if d == 1:
-                print("There is Spike trap!!!\nGAME OVER")
+                print("There is Spike trap!!\nGAME OVER")
             if d == 2:
                 pass
             if d == 3:
