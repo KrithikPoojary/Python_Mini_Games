@@ -75,7 +75,7 @@ elif a == 2:
     print("There is Poisonous snakes...\nGAME OVER)")
     exit
 elif a == 3:
-    print("Ohh You Fall from cliff...\nGAME OVER")
+    print("Ohh You Fall from cliff.....\nGAME OVER")
     exit
 else:
     print('Something went wrong!')
