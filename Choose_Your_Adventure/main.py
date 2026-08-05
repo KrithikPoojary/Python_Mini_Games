@@ -70,7 +70,7 @@ if a == 1:
         print('Bandits attack..\nGAME OVER')
         exit
     else:
-        print('Something went wrong!')
+        print('Something went wrong!!')
 elif a == 2:
     print("There is Poisonous snakes...\nGAME OVER)")
     exit
