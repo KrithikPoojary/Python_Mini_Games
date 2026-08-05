@@ -64,7 +64,7 @@ if a == 1:
         if c == 3:
             print("GAME OVER")
     elif b ==2 :
-        print("There is Crocodiles..\nGAME OVER")
+        print("There is Crocodiles...\nGAME OVER")
         exit
     elif b == 3:
         print('Bandits attack..\nGAME OVER')
