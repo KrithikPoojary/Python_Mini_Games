@@ -59,11 +59,12 @@ if a == 1:
                 print("A locked door.\n1 - Solve Puzzle\n2 - Break Door\n3 - Search Another Way")
                 e = int(input("Choose your option: "))
                 if e == 1:
-                    pass
+                    print("")
+                    ...
                 if e == 2:
-                    pass
+                    print("Alarm!!!!!\nGAME OVER")
                 if e == 3:
-                    pass
+                    print("GAME OVER")
             if d == 3:
                 print("There is Giant spider!!\n GAME OVER")
         if c ==2 :
