@@ -55,7 +55,7 @@ if a == 1:
             if d == 1:
                 print("There is Spike trap!!\nGAME OVER")
             if d == 2:
-                print("A locked door.\n1 - Solve Puzzle")
+                print("A locked door.\n1 - Solve Puzzle\n2 - Break Door\n3 - Search Another Way")
             if d == 3:
                 print("There is Giant spider!!\n GAME OVER")
         if c ==2 :
