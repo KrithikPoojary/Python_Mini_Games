@@ -55,7 +55,15 @@ if a == 1:
             if d == 1:
                 print("There is Spike trap!!\nGAME OVER")
             if d == 2:
+                print("")
                 print("A locked door.\n1 - Solve Puzzle\n2 - Break Door\n3 - Search Another Way")
+                e = int(input("Choose your option: "))
+                if e == 1:
+                    pass
+                if e == 2:
+                    pass
+                if e == 3:
+                    pass
             if d == 3:
                 print("There is Giant spider!!\n GAME OVER")
         if c ==2 :
