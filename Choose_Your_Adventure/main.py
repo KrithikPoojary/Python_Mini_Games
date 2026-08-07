@@ -61,7 +61,15 @@ if a == 1:
                 if e == 1:
                     print("")
                     print('''"I speak without a mouth, I hear without ears, I have no body, but I come alive with the wind. What am I? \n1. Shadow \n2. Echo \n3. Fire \n4. Water): "''')
-                    
+                    z = int(input("Enter your choice: "))
+                    if z == 1:
+                        print("Oh you are wrong....")
+                    if z == 2:
+                        pass
+                    if z == 3:
+                        pass
+                    if z == 4:
+                        pass
                 if e == 2:
                     print("Alarm!!!!!\nGAME OVER")
                 if e == 3:
