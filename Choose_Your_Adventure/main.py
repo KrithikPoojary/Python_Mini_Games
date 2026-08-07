@@ -63,13 +63,16 @@ if a == 1:
                     print('''"I speak without a mouth, I hear without ears, I have no body, but I come alive with the wind. What am I? \n1. Shadow \n2. Echo \n3. Fire \n4. Water): "''')
                     z = int(input("Enter your choice: "))
                     if z == 1:
-                        print("Oh you are wrong....")
+                        print("Oh you are wrong....\nGAME OVER")
                     if z == 2:
-                        pass
+                        print("")
+                        print("You are Teleported to one Treasure room.\n1 - Take Treasure Immediately\n2 - Observe Room First\n3 - Leave")
+                        f = int(input("Choose your option: "))
+                        
                     if z == 3:
-                        pass
+                        print("Oh you are wrong....\nGAME OVER")
                     if z == 4:
-                        pass
+                        print("Oh you are wrong....\nGAME OVER")
                 if e == 2:
                     print("Alarm!!!!!\nGAME OVER")
                 if e == 3:
