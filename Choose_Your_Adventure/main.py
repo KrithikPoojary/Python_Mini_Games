@@ -71,7 +71,9 @@ if a == 1:
                         if f == 1 :
                             print("Seems like Dragon wakes!!!!\nGAME OVER")
                         elif f == 2:
-                            pass
+                            print("")
+                            print("Three ancient swords rest upon a stone altar.\nOnly one carries the power to defeat the guardian of the temple.\nThe other two are cursed.\nChoose wisely... your decision will be revealed only at the end of your journey.\n\n\"Read the ancient inscription before you choose..\"\n....")
+                            
                         elif f == 3 :
                             print("GAME OVER")
                     if z == 3:
