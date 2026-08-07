@@ -60,7 +60,8 @@ if a == 1:
                 e = int(input("Choose your option: "))
                 if e == 1:
                     print("")
-                    print('''"I speak without a mouth, I hear without ears, I have no body, but I come alive with the wind. What am I? (1. Shadow | 2. Echo | 3. Fire | 4. Water): "''')
+                    print('''"I speak without a mouth, I hear without ears, I have no body, but I come alive with the wind. What am I? \n1. Shadow \n2. Echo \n3. Fire \n4. Water): "''')
+                    
                 if e == 2:
                     print("Alarm!!!!!\nGAME OVER")
                 if e == 3:
