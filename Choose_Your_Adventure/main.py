@@ -68,7 +68,12 @@ if a == 1:
                         print("")
                         print("You are Teleported to one Treasure room.\n1 - Take Treasure Immediately\n2 - Observe Room First\n3 - Leave")
                         f = int(input("Choose your option: "))
-                        
+                        if f == 1 :
+                            print("Seems like Dragon wakes!!!!\nGAME OVER")
+                        elif f == 2:
+                            pass
+                        elif f == 3 :
+                            print("GAME OVER")
                     if z == 3:
                         print("Oh you are wrong....\nGAME OVER")
                     if z == 4:
