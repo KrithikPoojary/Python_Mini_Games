@@ -81,11 +81,13 @@ if a == 1:
                             print("Dragon wakes up!!\n1 - Fight\n2 - Run Away\n3 - Hide")
                             g = int(input("Choose your option: "))
                             if g == 1:
-                                pass
-                            if g == 2:
-                                pass
-                            if g == 3:
-                                pass
+                                print(w)
+                            elif g == 2:
+                                print("GAME OVER")
+                                exit
+                            elif g == 3:
+                                print("GAME OVER")
+                                exit
                         elif f == 3 :
                             print("GAME OVER")
                             exit
