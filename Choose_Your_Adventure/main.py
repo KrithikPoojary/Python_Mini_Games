@@ -72,7 +72,7 @@ if a == 1:
                             print("Seems like Dragon wakes!!!!\nGAME OVER")
                         elif f == 2:
                             print("")
-                            print("Three ancient swords rest upon a stone altar.\nOnly one carries the power to defeat the guardian of the temple.\nThe other two are cursed.\nChoose wisely... your decision will be revealed only at the end of your journey.\n\n\"Read the ancient inscription before you choose..\"\n....")
+                            print("Three ancient swords rest upon a stone altar.\nOnly one carries the power to defeat the guardian of the temple.\nThe other two are cursed.\nChoose wisely... your decision will be revealed only at the end of your journey.\n\n\"Read the ancient inscription before you choose..\"\nSword1 - Eclipse Fang\nSword2 - Dragonbane\nSword3 - Soulreaver")
                             
                         elif f == 3 :
                             print("GAME OVER")
