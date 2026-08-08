@@ -54,6 +54,7 @@ if a == 1:
             d = int(input("Choose your option: "))
             if d == 1:
                 print("There is Spike trap!!\nGAME OVER")
+                exit
             if d == 2:
                 print("")
                 print("A locked door.\n1 - Solve Puzzle\n2 - Break Door\n3 - Search Another Way")
@@ -64,6 +65,7 @@ if a == 1:
                     z = int(input("Enter your choice: "))
                     if z == 1:
                         print("Oh you are wrong....\nGAME OVER")
+                        exit
                     if z == 2:
                         print("")
                         print("You are Teleported to one Treasure room.\n1 - Take Treasure Immediately\n2 - Observe Room First\n3 - Leave")
@@ -73,24 +75,41 @@ if a == 1:
                         elif f == 2:
                             print("")
                             print("Three ancient swords rest upon a stone altar.\nOnly one carries the power to defeat the guardian of the temple.\nThe other two are cursed.\nChoose wisely... your decision will be revealed only at the end of your journey.\n\n\"Read the ancient inscription before you choose..\"\n##-- When the light fades and shadows rise, the blade that walks with darkness shall reveal the path of the chosen. --##\nSword1 - Eclipse Fang\nSword2 - Dragonbane\nSword3 - Soulreaver")
-                            
+                            w = int(input("Choose your option: "))
+                            time.sleep(1)
+                            print("")
+                            print("Dragon wakes up!!\n1 - Fight\n2 - Run Away\n3 - Hide")
+                            g = int(input("Choose your option: "))
+                            if g == 1:
+                                pass
+                            if g == 2:
+                                pass
+                            if g == 3:
+                                pass
                         elif f == 3 :
                             print("GAME OVER")
+                            exit
                     if z == 3:
                         print("Oh you are wrong....\nGAME OVER")
+                        exit
                     if z == 4:
                         print("Oh you are wrong....\nGAME OVER")
+                        exit
                 if e == 2:
                     print("Alarm!!!!!\nGAME OVER")
+                    exit
                 if e == 3:
                     print("GAME OVER")
+                    exit
             if d == 3:
                 print("There is Giant spider!!\n GAME OVER")
+                exit
         if c ==2 :
             print('Quicksand!!!\nGAME OVER')
             exit
         if c == 3:
             print("GAME OVER")
+            exit
     elif b ==2 :
         print("There is Crocodiles...\nGAME OVER")
         exit
@@ -99,6 +118,7 @@ if a == 1:
         exit
     else:
         print('Something went wrong!!')
+        exit
 elif a == 2:
     print("There is Poisonous snakes...\nGAME OVER)")
     exit
@@ -107,3 +127,4 @@ elif a == 3:
     exit
 else:
     print('Something went wrong!')
+    exit
