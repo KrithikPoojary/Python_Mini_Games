@@ -83,7 +83,9 @@ if a == 1:
                             if g == 1:
                                 player_health = 100
                                 Dragon_heath = 100
-                                
+                                print("\nThe ancient guardian awakens!")
+                                print("Dragon: \"You dare challenge me, mortal?\"")
+                                print("You raise the Eclipse Fang. Its blade begins to glow with dark energy.\n")
                             elif g == 2:
                                 print("GAME OVER")
                                 exit
