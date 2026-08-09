@@ -82,13 +82,13 @@ if a == 1:
                             g = int(input("Choose your option: "))
                             if g == 1:
                                 player_health = 100
-                                Dragon_heath = 100
+                                Dragon_health = 100
                                 print("\nThe ancient guardian awakens!")
                                 print("Dragon: \"You dare challenge me, mortal?\"")
                                 print("You raise the Eclipse Fang. Its blade begins to glow with dark energy.\n")
-                                while player_health > 0 and Dragon_heath > 0:
+                                while player_health > 0 and Dragon_health > 0:
                                     print("Your Health:", player_health)
-                                    print("Dragon Health:", Dragon_healt)
+                                    print("Dragon Health:", Dragon_health)
                             elif g == 2:
                                 print("GAME OVER")
                                 exit
