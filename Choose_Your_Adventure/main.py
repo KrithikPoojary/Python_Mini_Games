@@ -29,8 +29,10 @@ Think before you choose.
 
 Good luck, Adventurer.
 Your fate begins now...
+''')
+a12 = input("Enter your name pal: ")
 
-
+print('''
 ==========================================================
             Press Any key to start your adventure...
 ==========================================================

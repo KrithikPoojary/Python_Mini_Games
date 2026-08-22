@@ -3,8 +3,8 @@ class play():
             player_health = 100
             guardian_health = 100
 
-            print("\nThe ancient guardian awakens!")
-            print("Guardian: \"You dare challenge me, mortal?\"")
+            print("\nThe ancient Dragon awakens!")
+            print(f"Guardian: \"You dare challenge me, {a12}?\"")
             print("You raise the Eclipse Fang. Its blade begins to glow with dark energy.\n")
 
             while player_health > 0 and guardian_health > 0:
