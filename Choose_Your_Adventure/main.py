@@ -7,7 +7,7 @@ print('''
             🏛️  THE LOST TEMPLE ADVENTURE  🏛️
 ==========================================================
 
-Welcome, Adventurer!
+Welcome, Adventurer!!!
 
 Legends speak of an ancient temple hidden deep within
 an uncharted forest. Inside lies a treasure that has
