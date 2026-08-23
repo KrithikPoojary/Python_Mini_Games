@@ -1,5 +1,4 @@
 import time
-from logic import play
 print("**********************************************")
 print("Welcome to Your_Adventure Game")
 print("**********************************************")
@@ -84,15 +83,9 @@ if a == 1:
                             print("Dragon wakes up!!\n1 - Fight\n2 - Run Away\n3 - Hide")
                             g = int(input("Choose your option: "))
                             if g == 1:
-                                player_health = 100
-                                Dragon_health = 100
-                                print("\nThe ancient guardian awakens!")
-                                print("Dragon: \"You dare challenge me, mortal?\"")
-                                print("You raise the Eclipse Fang. Its blade begins to glow with dark energy.\n")
-                                while player_health > 0 and Dragon_health > 0:
-                                    print("Your Health:", player_health)
-                                    print("Dragon Health........:", Dragon_health)
-                                    print("\nChoose your action:")
+                                a = play()
+                                b = a.play_logic()
+                                print(b)
                             elif g == 2:
                                 print("GAME OVER")
                                 exit

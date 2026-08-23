@@ -1,10 +1,11 @@
 class play():
+        
         def play_logic(self):
             player_health = 100
             guardian_health = 100
 
             print("\nThe ancient Dragon awakens!")
-            print(f"Guardian: \"You dare challenge me, {a12}?\"")
+            print(f"Guardian: \"You dare challenge me, nigga?\"")
             print("You raise the Eclipse Fang. Its blade begins to glow with dark energy.\n")
 
             while player_health > 0 and guardian_health > 0:
