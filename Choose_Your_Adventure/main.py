@@ -76,24 +76,10 @@ if a == 1:
                         if f == 1 :
                             print("Seems like Dragon wakes!!!!\nGAME OVER")
                         elif f == 2:
-                            print("")
-                            print("Three ancient swords rest upon a stone altar.\nOnly one carries the power to defeat the guardian of the temple.\nThe other two are cursed.\nChoose wisely... your decision will be revealed only at the end of your journey.\n\n\"Read the ancient inscription before you choose..\"\n##-- When the light fades and shadows rise, the blade that walks with darkness shall reveal the path of the chosen. --##\nSword1 - Eclipse Fang\nSword2 - Dragonbane\nSword3 - Soulreaver")
-                            w = int(input("Choose your option: ")).lower()
-                            time.sleep(1)
-                            print("")
-                            print("Dragon wakes up!!\n1 - Fight\n2 - Run Away\n3 - Hide")
-                            g = int(input("Choose your option: "))
-                            if g == 1:
-                                from logic import play
-                                a = play()
-                                b = a.play_logic()
-                                print(b)
-                            elif g == 2:
-                                print("GAME OVER")
-                                exit
-                            elif g == 3:
-                                print("GAME OVER")
-                                exit
+                            from logic import play
+                            a = play()
+                            b = a.play_logic()
+                            print(b)
                         elif f == 3 :
                             print("GAME OVER")
                             exit
