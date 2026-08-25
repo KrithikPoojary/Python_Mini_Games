@@ -22,4 +22,8 @@ while True:
 
 max_score = 50
 players_scores = [0 for _  in range(players)]
-print(players_scores)
+
+
+while max(players_scores) > max_score:
+    a = input('Do you want to roll [y/n]? ')
+    
