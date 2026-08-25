@@ -7,5 +7,10 @@ def roll():
 
     return roll
 
+while True:
 
-players = int(input("Enter the number of players (2 - 4): "))
+    players = input("Enter the number of players (2 - 4): ")
+    if players.isdigit():
+        pass
+    else:
+        print("Invalid choice!! Try again.")
