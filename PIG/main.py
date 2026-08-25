@@ -25,5 +25,11 @@ players_scores = [0 for _  in range(players)]
 
 
 while max(players_scores) > max_score:
-    a = input('Do you want to roll [y/n]? ')
+    a = input('Do you want to roll [y/n]? ').lower()
+    if a != "y":
+        break
+    b = roll()
+    if b == 1:
+        print("You rolled a 1! turn done")
+        
     
