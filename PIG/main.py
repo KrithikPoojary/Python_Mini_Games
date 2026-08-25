@@ -19,3 +19,7 @@ while True:
 
     else:
         print("Invalid choice!! Try again.")
+
+max_score = 50
+players_scores = [0 for _  in range(players)]
+print(players_scores)
