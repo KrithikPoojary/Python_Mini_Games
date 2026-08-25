@@ -11,6 +11,11 @@ while True:
 
     players = input("Enter the number of players (2 - 4): ")
     if players.isdigit():
-        pass
+        players = int(players)
+        if 2 <= players <= 4:
+            break
+        else:
+            print("Player should be between 2 - 4")
+
     else:
         print("Invalid choice!! Try again.")
