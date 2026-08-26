@@ -47,3 +47,5 @@ while max(players_scores) < max_score:
             print(f"Your score = {current_score}")
         players_scores[player_idx] += current_score
         print(f"Your Total score is: {players_scores[player_idx]}")
+
+# Stoped
