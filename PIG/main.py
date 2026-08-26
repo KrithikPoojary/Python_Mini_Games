@@ -5,7 +5,7 @@ def roll():
     max_value = 6
     dice = random.randint(min_value,max_value)
 
-    return roll
+    return dice
 
 while True:
 
@@ -24,7 +24,7 @@ max_score = 50
 players_scores = [0 for _  in range(players)]
 
 
-while max(players_scores) > max_score:
+while max(players_scores) < max_score:
 
     for player_idx in range(players):
         print(f"Player {player_idx+1} Turn has just started")
@@ -41,8 +41,8 @@ while max(players_scores) > max_score:
                 current_score = 0
                 break
             else:
-                print(f"You rolled a: {b}!")
                 current_score += b
+                print(f"You rolled a: {b}!")
 
             print(f"Your score = {current_score}")
         players_scores[player_idx] += current_score
