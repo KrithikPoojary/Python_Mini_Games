@@ -61,7 +61,6 @@ while max(players_scores) < max_score:
 
         print(f"Your Total score is: {players_scores[player_idx]}")
 
-        # Check if player reached 50
         if players_scores[player_idx] >= max_score:
             print(f"\nPlayer {player_idx + 1} reached {max_score}!")
             break
