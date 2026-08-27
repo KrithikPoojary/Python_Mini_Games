@@ -11,7 +11,7 @@ def roll():
 
 while True:
 
-    players = input("Enter the number of players (2 - 4): ")
+    players = input("Enter the number of players (2 - 4):  ")
 
     if players.isdigit():
         players = int(players)
