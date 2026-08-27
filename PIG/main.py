@@ -67,7 +67,6 @@ while max(players_scores) < max_score:
             break
 
 
-# Find winner
 winner = players_scores.index(max(players_scores))
 
 print("\n====================")
