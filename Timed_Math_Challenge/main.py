@@ -15,3 +15,5 @@ def question():
     ans = eval(expression)  #SO eval is basically, if the operation is logical it finds the answers.
     return expression , ans
 
+input("Press enter to start: ")
+print("------------------------")
