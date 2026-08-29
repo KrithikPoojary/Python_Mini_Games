@@ -15,5 +15,11 @@ def question():
     ans = eval(expression)  #SO eval is basically, if the operation is logical it finds the answers.
     return expression , ans
 
+
+wrong = 0
+Time_start = time.time()
 input("Press enter to start: ")
 print("------------------------")
+for i in range(TOTAL_QUESTIONS):
+    expression , ans = question()
+    while Tr
