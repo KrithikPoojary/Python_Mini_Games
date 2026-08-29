@@ -15,6 +15,7 @@ This project includes multiple command-line games covering randomization, user i
 - 🧠 Quiz Game (v1.0 Extended)
 - ⚔️ Choose Your Adventure Game
 - 🎲 PIG Dice Game
+- ⏱️ Timed Math Challenge
 
 ---
 
@@ -85,12 +86,39 @@ PIG is a turn-based multiplayer dice game where players try to reach the target 
 
 ---
 
+## ⏱️ Timed Math Challenge Highlights
+
+A fast-paced arithmetic quiz that generates random math questions and tracks how long you take to finish, along with how many mistakes you make along the way.
+
+### Features
+
+- Randomly generated math questions (addition, subtraction, multiplication)
+- Random operands between configurable min/max values
+- 10 questions per round
+- Timer starts when the player is ready and presses Enter
+- Total completion time tracking
+- Mistake counter (tracks wrong attempts, not just wrong questions)
+- Re-prompts on incorrect answers until the correct one is entered
+- Simple, clean command-line interface
+
+### ⏱️ How Timed Math Challenge Works
+
+1. Press Enter to start the challenge.
+2. A math question is generated using two random numbers and a random operator (`+`, `-`, `*`).
+3. Enter your answer for the question.
+4. If the answer is wrong, it doesn't move on — you keep guessing until you get it right, and each wrong guess is counted.
+5. Once correct, the next question is generated.
+6. After 10 questions, the timer stops and your total time and mistake count are displayed.
+
+---
+
 ## ✨ Features
 
 - Randomized computer choices
 - Random question selection
 - Question shuffling
 - Random dice rolling
+- Randomized math question generation
 - Interactive command-line gameplay
 - Single-player and multiplayer games
 - Two-player game support
@@ -106,6 +134,8 @@ PIG is a turn-based multiplayer dice game where players try to reach the target 
 - Percentage calculation
 - Turn-based game logic
 - Multiple endings
+- Timed challenge gameplay
+- Mistake tracking
 - Multi-file project structure
 
 ---
@@ -139,7 +169,7 @@ Through these projects, I practiced:
 - List of Dictionaries
 - String Manipulation
 - Random Module
-- Time Module (`time.sleep()`)
+- Time Module (`time.sleep()`, `time.time()`)
 - Input Validation
 - Score Calculation
 - Percentage Calculation
@@ -150,12 +180,3 @@ Through these projects, I practiced:
 - Health System
 - Code Organization
 - Multi-file Python Project Structure
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
