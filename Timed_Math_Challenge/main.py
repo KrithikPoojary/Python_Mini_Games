@@ -18,9 +18,17 @@ def question():
 
 wrong = 0
 Time_start = time.time()
+
+
 input("Press enter to start: ")
 print("------------------------")
 for i in range(TOTAL_QUESTIONS):
     expression , ans = question()
     while True:
         guess = input(f"Question {i+1}- {expression}: ")
+        if guess == str(ans):
+            break
+        wrong += 1
+
+print("------------------------")
+print(f"You have completed your challenge in {round(time.time(),2)}sec and with {wrong} time correction")
