@@ -12,4 +12,6 @@ def question():
     operators = random.choice(OPERATORS)
 
     expression = str(left) + "" + operators + ""  + str(right)
-    
+    ans = eval(expression)  #SO eval is basically, if the operation is logical it finds the answers.
+    return expression , ans
+
