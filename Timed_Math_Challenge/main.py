@@ -31,4 +31,4 @@ for i in range(TOTAL_QUESTIONS):
         wrong += 1
 
 print("------------------------")
-print(f"You have completed your challenge in {round(time.time(),2)}sec and with {wrong} time correction")
+print(f"You have completed your challenge in {round(Time_start,2)}sec and with {wrong} time correction")
