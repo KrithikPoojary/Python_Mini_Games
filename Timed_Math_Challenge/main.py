@@ -22,4 +22,5 @@ input("Press enter to start: ")
 print("------------------------")
 for i in range(TOTAL_QUESTIONS):
     expression , ans = question()
-    while Tr
+    while True:
+        guess = input(f"Question {i+1}- {expression}: ")
